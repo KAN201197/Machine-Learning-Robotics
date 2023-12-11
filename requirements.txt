@@ -1,0 +1,8 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+tensorflow==2.13.1
+python==3.8.18
+
+# Once installed and activated, please run
+# pip install --user gym pyglet imageio matplotlib scipy numpy==1.22.1 jupyter tensorflow-probability
