@@ -1,5 +1,7 @@
 # ME5418 Machine Learning in Robotics Project
 
+![OptimizedRacingCar-ezgif com-video-to-gif-converter](https://github.com/KAN201197/Machine-Learning-Robotics/assets/128454220/288b988e-8dda-4484-aa9a-657e6f120709)
+
 This project aims to develop the deep reinforcement learning algorithm which will be implemented into an **Autonomous Racing Car**. The objective of this project is for the agent to reach a desired goal position while minimizing time lap as well as preventing the agent from moving outside of the track. The reinforcement learning algorithm that used in this project is **PPO (Proximal Policy Optimization)**. In this project, there is three different part that should be integrated as **gym environment, the neural network model, and the learning agent**. 
 
 Inside the gym environment, the observation space includes the position of the car, heading direction, the car’s velocity, and lidar sensor data. The action space consists of continuous action in steering angle and acceleration ranging from -1 to 1. The reward structure is defined based on various factors such as the agent’s velocity (velocity-based reward), time spent (time-based reward), velocity penalty, lap completion reward, and off-track penalty. 
